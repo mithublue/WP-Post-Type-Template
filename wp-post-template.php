@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: WP Post Template
+Plugin Name: WP Post Type Template
 Plugin URI:
 Description: A plugin to set template for any post type like pages.
 Version: 1.0
