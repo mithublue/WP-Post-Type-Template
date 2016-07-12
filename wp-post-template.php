@@ -7,6 +7,7 @@ Version: 1.0
 Author: Mithu A Quayium
 Author URI:
 License: GPLv2
+Tags : custom post template, custom post type, custom template, custom template for post., custom theme template, post from template, post template, posts, Simple Post Templates, single post templates, template, templates, theme template, wordpress post template, wp custom post template, wp post template
 */
 
 class WPPT_Init {
