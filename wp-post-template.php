@@ -69,10 +69,13 @@ class WPPT_Init {
 
         if( !current_user_can( 'edit_post' ) ) return;
 
-        if ($post->post_type !='page' && !empty($_POST['page_template'])) {
-            update_post_meta( $post_id, '_wp_page_template', $_POST['page_template'] );
+        $post_template = sanitize_text_field( $_POST['page_template'] );
+
+        if ( $post->post_type !='page' && !empty( $post_template ) ) {
+            update_post_meta( $post_id, '_wp_page_template', $post_template );
         }
     }
+
     public static function init() {
         new WPPT_Init();
     }
