@@ -1,10 +1,10 @@
 === WP Post Type Template ===
-Contributors: mithublue,cybercraftit
+Contributors: cybercraftit,mithublue
 Tags: wp custom post type template, template selector, post template selector, wp post template selector, template, content template, wp custom template, wp content template, post template, custom post type template, post type template, wp post type template post template, custom template for post, wp custom post template, custom post type, custom template, post from template, posts, templates, custom post template, custom theme template, simple post templates, single post templates, template, theme template, wordpress post template, wp post template
 Requires at least: 3.0
-Tested up to: 4.5
+Tested up to: 4.9.5
 Donate link: 
-Stable tag: 1.0
+Stable tag: 1.0.3
 License: GPLv2 or later
 
 The plugin is to let users choose template for any post of any type as you can choose for page.

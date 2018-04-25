@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: WP Post Type Template
-Plugin URI:
+Plugin URI: http://cybercraftit.com/product/wp-post-type-template/
 Description: A plugin to set template for any post type like pages.
-Version: 1.0
-Author: Mithu A Quayium
-Author URI:
+Version: 1.0.3
+Author: CyberCraft
+Author URI: http://cybercraftit.com/
 License: GPLv2
 Tags : custom post template, custom post type, custom template, custom template for post., custom theme template, post from template, post template, posts, Simple Post Templates, single post templates, template, templates, theme template, wordpress post template, wp custom post template, wp post template
 */
@@ -16,8 +16,14 @@ class WPPT_Init {
         add_action('add_meta_boxes', array( $this, 'wp_add_post_custom_template' ) );
         add_action('save_post', array( $this, 'wp_save_custom_post_template' ),10,2);
         add_filter('single_template', array( $this, 'wp_load_custom_post_template' ));
+
+        $this->includes();
     }
 
+    function includes(){
+        include_once 'cc-products-page.php';
+        include_once 'news.php';
+    }
 
     function wp_add_post_custom_template( $post_type ) {
 
