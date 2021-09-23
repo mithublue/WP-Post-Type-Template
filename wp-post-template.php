@@ -3,7 +3,7 @@
 Plugin Name: WP Post Type Template
 Plugin URI: http://cybercraftit.com/product/wp-post-type-template/
 Description: A plugin to set template for any post type like pages.
-Version: 1.0.3
+Version: 1.0.3.1
 Author: CyberCraft
 Author URI: http://cybercraftit.com/
 License: GPLv2
